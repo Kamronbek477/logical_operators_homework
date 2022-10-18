@@ -5,4 +5,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return 10000<=a<100000 and (a%10)>(a%100//10)>(a%1000//100)>(a%10000//1000)>(a//10000)
+print(main(23569))
